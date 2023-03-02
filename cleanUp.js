@@ -8,37 +8,39 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askForName() { 
+  console.log("Hello, what is your name?") 
+}
 
-askForName()
-
-
-// EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
-
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+askForName();
 
 
-// EX 3:
-func makeFreshPesto(){
-  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-  console.log("Pulse basil and pine nuts");
-  console.log("Add garlic and cheeses");
-  console.log("Slowly pour in oil");
-  console.log("Season");    }
+// // EX 2:
+// function addThreeNums(first, second, third) {
+// var sum = first + second + third
+// return sum;
+//       }
 
-makeFreshPesto();
+// addThreeNums(1, 2, 3);
+// addThreeNums(4, 2, 7);
 
 
-//  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
+// // EX 3:
+// function makeFreshPesto(){
+//   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+//   console.log("Pulse basil and pine nuts");
+//   console.log("Add garlic and cheeses");
+//   console.log("Slowly pour in oil");
+//   console.log("Season");    }
 
-return avg
-  }
+// makeFreshPesto();
+
+
+// //  EX 4:
+// function average(num1, num2) 
+//   {
+// var sum = num1 + num2;
+//     var avg = sum / 2;
+
+// return avg
+//   }
