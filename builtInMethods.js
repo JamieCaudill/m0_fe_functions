@@ -38,6 +38,18 @@ var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
 
+var sport = "hockey";
+var tool = "stick";
+
+// The toUpperCase() method takes all characters in a string and makes them upper case and returns them. 
+// The return value will be "HOCKEY"
+
+console.log(sport.toUpperCase());
+
+// The bold() method makes the string bold and returns it
+// The return value will be <b>stick</b>
+
+console.log(tool.bold())
 
 // SECTION 3: Calling methods on variables assigned to arrays.
 // Declare 2 variables assigned to arrays.
