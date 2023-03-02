@@ -3,22 +3,24 @@
 // Then, in a comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've learned in this lesson so far.
 
 // EXAMPLE
-// The toLowerCase() method is called on the string "Hello World"
-// No arguments are passed; toLowerCase() has one clear job which is to lowercase all letters that exist in the String
-// The return value is "hello world"
+// The toLowerCase() method is called on the string "Hello World".
+// No arguments are passed; toLowerCase() has one clear job which is to lowercase all letters that exist in the String.
+// The return value is "hello world".
 "Hello World".toLowerCase();
 
-// The includes() method is called on the string "Hello World"
-// includes() checks the string to see if the input is within and returns a boolean
-// The return value is true
+// The includes() method is called on the string "Hello World".
+// One argument is passed: "Hello".
+// includes() checks the string to see if the argument is within and returns a boolean.
+// The return value is true because "Hello World" does include "Hello".
 "Hello World".includes("Hello");
 
 // The endsWith() method is called on the string "Hello World"
-// endsWith() checks the string to see if it ends with the input and returns a boolean
-// The return value is false
+// One argument is passed: "Hello".
+// endsWith() checks the string to see if it ends with the argument and returns a boolean.
+// The return value is false because "Hello World" does not end with "Hello".
 "Hello World".endsWith("Hello");
 
-// The return value of this one is true because "Hello World" does end with rld
+// The return value of this one is true because "Hello World" does end with "rld".
 "Hello World".endsWith("rld");
 
 
@@ -42,12 +44,14 @@ var sport = "hockey";
 var tool = "stick";
 
 // The toUpperCase() method takes all characters in a string and makes them upper case and returns them. 
-// The return value will be "HOCKEY"
+// No arguments are passed.
+// The return value will be "HOCKEY".
 
 console.log(sport.toUpperCase());
 
-// The bold() method makes the string bold and returns it
-// The return value will be <b>stick</b>
+// The bold() method makes the string bold and returns it.
+// No arguments are passed.
+// The return value will be <b>stick</b>.
 
 console.log(tool.bold())
 
@@ -65,7 +69,7 @@ var words = ["good", "bad", "neutral"];
 
 console.log(games.toString());
 
-// The join() method also takes an array and combines it returning a string, but one can specify the separator. 
+// The join() method also takes an array and combines it returning a new string, but one can specify the separator. 
 // The return value will be "good$bad$neutral"
 
 console.log(words.join("$"))
