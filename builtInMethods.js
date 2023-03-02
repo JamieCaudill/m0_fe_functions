@@ -56,3 +56,16 @@ console.log(tool.bold())
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+var games = ["board", "card", "word"];
+var words = ["good", "bad", "neutral"];
+
+// The toString() method takes an array, combines the elements, and returns it as a string, where each element is separated by a comma. 
+// The return value will be "board,card,word"
+
+console.log(games.toString());
+
+// The join() method also takes an array and combines it returning a string, but one can specify the separator. 
+// The return value will be "good$bad$neutral"
+
+console.log(words.join("$"))
