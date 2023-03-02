@@ -8,13 +8,17 @@
 // The return value is "hello world"
 "Hello World".toLowerCase();
 
-
+// The includes() method is called on the string "Hello World"
+// includes() checks the string to see if the input is within and returns a boolean
+// The return value is true
 "Hello World".includes("Hello");
 
-
+// The endsWith() method is called on the string "Hello World"
+// endsWith() checks the string to see if it ends with the input and returns a boolean
+// The return value is false
 "Hello World".endsWith("Hello");
 
-
+// The return value of this one is true because "Hello World" does end with rld
 "Hello World".endsWith("rld");
 
 
